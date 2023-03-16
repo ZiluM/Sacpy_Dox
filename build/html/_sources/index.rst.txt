@@ -1,0 +1,30 @@
+.. include:: ../README.rst
+
+
+User Guide
+==========
+
+.. toctree::
+   :maxdepth: 2
+
+   installation
+   notebooks/QuickStart
+   Linreg
+   notebooks/EOF
+   notebooks/SVD
+   XrTools
+   notebooks/MValueTTest
+
+Documentation
+=============
+
++ GitHub: https://github.com/ZiluM/sacpy
+
++ Pypi: https://pypi.org/project/sacpy/
+
+Contact us
+===========
+
++ Author: Zilu Meng
+
++ e-mail: zilumeng@uw.edu
