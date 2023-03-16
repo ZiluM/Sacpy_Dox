@@ -29,6 +29,8 @@ Documentation
 
 + Pypi: https://pypi.org/project/sacpy/
 
++ Install: https://zilum.github.io/Sacpy_Dox/installation.html
+
 User Guide
 ==========
 
