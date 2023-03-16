@@ -325,7 +325,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -341,6 +343,18 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#Load-Modules">Load Modules</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#Load-SST-Data">Load SST Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#Get-Nino3.4-and-IOD-index">Get Nino3.4 and IOD index</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#build-Data-for-MLR">build Data for MLR</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#Plot">Plot</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -352,6 +366,8 @@ document.write(`
                   
   <section id="IOD-impact-after-removing-the-impact-of-ENSO">
 <h1>IOD impact after removing the impact of ENSO<a class="headerlink" href="#IOD-impact-after-removing-the-impact-of-ENSO" title="Permalink to this heading">#</a></h1>
+<section id="Load-Modules">
+<h2>Load Modules<a class="headerlink" href="#Load-Modules" title="Permalink to this heading">#</a></h2>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[1]:
 </pre></div>
@@ -362,6 +378,9 @@ document.write(`
 </pre></div>
 </div>
 </div>
+</section>
+<section id="Load-SST-Data">
+<h2>Load SST Data<a class="headerlink" href="#Load-SST-Data" title="Permalink to this heading">#</a></h2>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[2]:
 </pre></div>
@@ -780,6 +799,9 @@ Coordinates:
 </pre></div>
 </div>
 </div>
+</section>
+<section id="Get-Nino3.4-and-IOD-index">
+<h2>Get Nino3.4 and IOD index<a class="headerlink" href="#Get-Nino3.4-and-IOD-index" title="Permalink to this heading">#</a></h2>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[4]:
 </pre></div>
@@ -799,6 +821,9 @@ Coordinates:
 </pre></div>
 </div>
 </div>
+</section>
+<section id="build-Data-for-MLR">
+<h2>build Data for MLR<a class="headerlink" href="#build-Data-for-MLR" title="Permalink to this heading">#</a></h2>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[6]:
 </pre></div>
@@ -826,6 +851,9 @@ Coordinates:
 MultLinReg, x.shape = (372, 2), y.shape = (372, 13, 57)
 </pre></div></div>
 </div>
+</section>
+<section id="Plot">
+<h2>Plot<a class="headerlink" href="#Plot" title="Permalink to this heading">#</a></h2>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[8]:
 </pre></div>
@@ -855,9 +883,10 @@ MultLinReg, x.shape = (372, 2), y.shape = (372, 13, 57)
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<img alt="../_images/notebooks_IODI_nino34_ssta_partial_8_1.png" src="../_images/notebooks_IODI_nino34_ssta_partial_8_1.png" />
+<img alt="../_images/notebooks_IODI_nino34_ssta_partial_13_1.png" src="../_images/notebooks_IODI_nino34_ssta_partial_13_1.png" />
 </div>
 </div>
+</section>
 </section>
 
 
@@ -893,6 +922,24 @@ MultLinReg, x.shape = (372, 2), y.shape = (372, 13, 57)
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#Load-Modules">Load Modules</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#Load-SST-Data">Load SST Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#Get-Nino3.4-and-IOD-index">Get Nino3.4 and IOD index</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#build-Data-for-MLR">build Data for MLR</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#Plot">Plot</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

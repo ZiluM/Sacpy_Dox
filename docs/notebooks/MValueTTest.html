@@ -358,7 +358,12 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#two_mean_test">two_mean_test</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#Parameter">Parameter</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Returns:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Example</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Example</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#Load-Modules-and-SST-data">Load Modules and SST data</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#Select-Normal-and-Super-El-nino-Cases">Select Normal and Super El nino Cases</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#Plot-the-results">Plot the results</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -509,6 +514,8 @@ array(0.93506366)
 </section>
 <section id="id3">
 <h3>Example<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<section id="Load-Modules-and-SST-data">
+<h4>Load Modules and SST data<a class="headerlink" href="#Load-Modules-and-SST-data" title="Permalink to this heading">#</a></h4>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[16]:
 </pre></div>
@@ -524,6 +531,9 @@ array(0.93506366)
 </pre></div>
 </div>
 </div>
+</section>
+<section id="Select-Normal-and-Super-El-nino-Cases">
+<h4>Select Normal and Super El nino Cases<a class="headerlink" href="#Select-Normal-and-Super-El-nino-Cases" title="Permalink to this heading">#</a></h4>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[14]:
 </pre></div>
@@ -532,10 +542,15 @@ array(0.93506366)
 <span class="n">ssta_sl1</span> <span class="o">=</span> <span class="n">ssta_djf</span><span class="p">[</span><span class="n">select1</span><span class="p">]</span>
 <span class="n">select2</span> <span class="o">=</span> <span class="n">Nino34</span> <span class="o">&gt;=</span> <span class="mf">1.3</span>
 <span class="n">ssta_sl2</span> <span class="o">=</span> <span class="n">ssta_djf</span><span class="p">[</span><span class="n">select2</span><span class="p">]</span>
+
+<span class="c1"># cal difference</span>
 <span class="n">mean_diff</span><span class="p">,</span> <span class="n">pv2</span> <span class="o">=</span> <span class="n">scp</span><span class="o">.</span><span class="n">two_mean_test</span><span class="p">(</span><span class="n">ssta_sl2</span><span class="p">,</span><span class="n">ssta_sl1</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
+</section>
+<section id="Plot-the-results">
+<h4>Plot the results<a class="headerlink" href="#Plot-the-results" title="Permalink to this heading">#</a></h4>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[15]:
 </pre></div>
@@ -563,9 +578,10 @@ array(0.93506366)
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<img alt="../_images/notebooks_MValueTTest_9_1.png" src="../_images/notebooks_MValueTTest_9_1.png" />
+<img alt="../_images/notebooks_MValueTTest_12_1.png" src="../_images/notebooks_MValueTTest_12_1.png" />
 </div>
 </div>
+</section>
 </section>
 </section>
 </section>
@@ -622,7 +638,12 @@ array(0.93506366)
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#two_mean_test">two_mean_test</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#Parameter">Parameter</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Returns:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Example</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Example</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#Load-Modules-and-SST-data">Load Modules and SST data</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#Select-Normal-and-Super-El-nino-Cases">Select Normal and Super El nino Cases</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#Plot-the-results">Plot the results</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
