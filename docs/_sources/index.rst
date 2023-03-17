@@ -9,6 +9,7 @@ Fast!
 For example, Sacpy is more than 60 times faster than the traditional regression analysis with Python. The following is the time spent performing the same task. Sacpy is fastest.
 
 .. image:: pic/speed_test_00.png
+   :width: 600
 
 Turn to climate data customization!
 """"""""""""""""""""""""""""""""""""
