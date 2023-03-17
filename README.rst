@@ -12,13 +12,14 @@ It provides a toolkit for
 + Maximum Covariance Analysis (MCA or SVD) 
 + Convenient Plots for Cartopy, Xarray
 + Convenient Tools for Statistic Analysis
++ Power spectrum analysis (under testing)
 
-For more details, please refer to the documentation linked below.
+For more details, please refer to the User Guide linked below.
 
-Quick Install
-=============
+Quick Installation
+===================
 
-use pip for installing
+Use **pip** for Installation. 
 
 .. code-block:: bash
 
